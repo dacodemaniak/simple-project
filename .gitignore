@@ -1,0 +1,10 @@
+# .gitignore
+#	Exclude some local files or directory from Git tracking
+
+*.vscode
+
+*.bak
+
+./node_modules
+
+
