@@ -1,1 +1,4 @@
+/**
+* Comment
+**/
 Line into two.txt
