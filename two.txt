@@ -7,5 +7,5 @@ Update line two in devel branch... and updated in myFeature too
 Add a loop and transform
 
 foreach(data in form) {
-    // My logic here
+    console.log(`Reading ${data}`);
 }
