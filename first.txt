@@ -1,7 +1,0 @@
-/**
-* @author Moi
-**/
-First line into first.txt
-Second line into first.txt
-
-here a piece of functionality
