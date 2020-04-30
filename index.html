@@ -3,6 +3,37 @@
 <title> </title>
 </head>
 <body>
-
+<section id="loginForm">
+    <img src="/Images/logo.png" alt="logo happy follow" class="logo-connexion" />
+    <h3>Connexion</h3>
+<form action="/Connexion" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="CV1HrrHYi42bdBL9vS-MfmD67ctbIFYf_B63nfvS3B1FtxVWJG81RIMERgMtO_8Oi4cPl6Vzinz5TciW8FkvhxUxIhEddp53Ob72CXZy8Bc1" />        <hr />
+        <div class="form-group">
+            <label class="col-md-2 control-label" for="Identifiant">Identifiant</label>
+            <div class="col-md-10">
+                <input class="form-control" data-val="true" data-val-required="Le champ Identifiant est requis." id="Identifiant" name="Identifiant" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Identifiant" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label" for="Password">Mot de passe</label>
+            <div class="col-md-10">
+                <input class="form-control" data-val="true" data-val-required="Le champ Mot de passe est requis." id="Password" name="Password" type="password" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="checkbox">
+                    <label for="RememberMe">Se rappeler de moi ?</label>
+                    <input class="OuiNonSwitch" data-val="true" data-val-required="Le champ Se rappeler de moi ? est requis." id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Connexion" class="btn btn-default" />
+            </div>
+        </div>
+</form></section>
 <body>
 </html>
